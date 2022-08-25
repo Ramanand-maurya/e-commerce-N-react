@@ -1,0 +1,157 @@
+.ProductCard {
+    box-sizing: border-box;
+    transition: box-shadow .3s ease-in-out;
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    border: 1px solid #e5e5e5;
+    margin: 4px 0 64px;
+    position: relative;
+  }
+
+  .Product-image {
+    width: 100%;
+  }
+  .Product-info {
+    padding: 0 15px;
+    position: static;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    min-height: 100px;
+    padding: 20px 15px;
+  }
+  .Product-brand {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 12x;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .Product-name {
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+  }
+  
+  .Product-price {
+    line-height: 1.6;
+  }
+  .Product-discountedPrice {
+    font-size: 14px;
+    color: #282c3f;
+    font-weight: 500;
+  }
+  .Product-orignalPrice {
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 300;
+    margin-left: 3px;
+    font-size: 12px;
+  }
+  .Product-discountPercent {
+    color: #f7d929;
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .ProductCard-body{
+    position: relative;
+    vertical-align: top;
+    clear: both;
+    overflow: visible;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    transition: box-shadow .3s ease-in-out;
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+  }
+  .ProductCard:hover .ProductCard-body{
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: -53px;
+    z-index: 999;
+    padding-bottom: 53px;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
+  }
+  .Product-actions {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding-top: 0;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.3s;
+    text-align: center;
+  }
+  .ProductCard:hover .Product-actions {
+    opacity: 1;
+  }
+  .Action-button {
+    background: none;
+    border-radius: 4px;
+    cursor: pointer;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 9px 15px;
+    text-align: center;
+    transition: all 0.3s;
+  }
+  .Button-cart {
+    color: #222;
+    background-color: #f7d929;
+    border-radius: 20px;
+    max-width: 180px;
+    width: 100%;
+  }
+  .Button-cart:hover {
+    background-color: rgb(27, 28, 29);
+    color: #fff;
+  }
+  .Button-wishlist {
+    color: red;
+    border: 1px solid red;
+    position: absolute;
+    top: 10px;
+    opacity: 0;
+    right: 10px;
+    box-shadow: red 0px 0px 0px 1px inset;
+  }
+  .ProductCard:hover .Button-wishlist{
+    opacity: 1;
+  }
+  .Button-wishlist:hover {
+    background: red;
+    color: white;
+  }
+  .Button-wishlist:hover .fa-heart {
+    fill: #fff;
+  }
+  .fa-heart {
+    font-size: 15px;
+  }
+  .ProductCard:hover .Product-image {
+    filter: grayscale();
+  }
+  

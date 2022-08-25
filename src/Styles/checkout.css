@@ -1,0 +1,42 @@
+.panel-group {
+    margin-bottom: 20px;
+}
+.panel {
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+#accordion.panel-group .panel {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+}
+.panel-default>.panel-heading {
+    color: #1f2022;
+    background-color: #fff;
+    border-color: #f0f0f0;
+    padding: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -khtml-border-radius: 0;
+}
+#accordion .panel-title {
+    background: #efefef none repeat scroll 0 0;
+    font-weight: 400;
+    margin: 0 0 10px;
+    font-size: 15px;
+}
+#accordion .panel-title a {
+    padding: 15px;
+    display: block;
+}
+#accordion .panel-body {
+    border: 1px solid #e5e5e5;
+    padding: 25px 35px 35px;
+}
+#accordion .panel-heading .fa.fa-caret-down {
+    float: right;
+    margin-top: 4px;
+}

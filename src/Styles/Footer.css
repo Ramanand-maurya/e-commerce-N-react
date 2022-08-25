@@ -1,0 +1,221 @@
+.footer {
+    margin-top: 40px;
+  }
+  .footer .Newsletter{
+    background-color: #f7d929;
+    margin-bottom: 60px;
+  }
+  .Newsletter .txt-news {
+    color: #222;
+    position: relative;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.Newsletter .sub-title {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .3px;
+}
+
+.Newsletter .Newsletter-f {
+    margin-block-end: 25px;
+    padding-inline-start: 50px;
+    position: relative;
+    margin-block-start: 25px;
+}
+.newsletter {
+  margin-block: 25px;
+}
+.email-icon {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  z-index: 2;
+  width: 36px;
+}
+.form-group.required {
+  margin: 0;
+  width: auto;
+}
+
+.input-news {
+  width: auto;
+  position: relative;
+}
+.newsletter #txtemail {
+  height: 40px;
+  width: 580px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  padding-inline: 20px 120px;
+  padding-block: 10px;
+}
+.newsletter .btn.btn-lg {
+  background: #222;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -khtml-border-radius: 0;
+  -moz-border-radius: 0;
+  border: none;
+  top: 2px;
+  right: 2px;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 13px;
+  max-width: 135px;
+  width: 100%;
+  font-weight: 600;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: top;
+  margin-inline-start: 10px;
+  line-height: 20px;
+}
+.footer-menu h4 {
+  font-size: 16px;
+  margin: 0 0 12px 0px;
+  position: relative;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.footer-menu ul {
+  padding-inline-start: 0; list-style: none;
+  margin-bottom: 0;
+}
+
+.footer-menu ul li {
+  padding-block: 4px;}
+
+.footer-menu ul li a {
+  color: #222;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .3px;
+}
+.footer-menu ul li a:hover{
+  color: gray;
+}
+.footer-menu >ul> li a::before {
+  content: "";
+  margin-inline-end: 6px;
+  border: 1px solid gray;
+  height: 6px;
+  width: 6px;
+  display: inline-block;
+  border-top: none;
+  border-left: none;
+  transform: rotate(-45deg);
+  margin-bottom: 3px;
+}
+.address-footer {
+  padding: 30px;
+  background: linear-gradient(180deg,#f0f0f0 10%,#FFF 60%);
+}
+.address-footer p {
+  color: #222;
+  font-family: inter,Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .3px;
+}
+
+.address-footer h6 {
+  color: #222;
+  font-weight: 400;
+  letter-spacing: .3px;
+  font-size: 24px;
+  padding-top: 15px;
+  line-height: 26px;
+}
+.follow h5 {
+  font-size: 16px;
+  margin: 0 0 12px;
+  position: relative;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 600;
+  line-height: 24px;
+  padding-top: 30px;
+}
+.follow h5 {
+  font-size: 16px;
+  margin: 0 0 12px;
+  position: relative;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 600;
+  line-height: 24px;
+  padding-top: 30px;
+}
+
+.social-footer ul {
+  display: flex;
+}
+
+.social-footer ul li a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  margin-right: 5px;
+  padding: 9px 13px;
+  outline: none;
+  border-radius: 50px;
+  background-color: #f0f0f0;
+  justify-content: center;
+  align-items: center;
+}
+.social-footer ul li a:hover{
+  background-color: #f7d929;
+  color: #222;
+}
+.powered {
+  margin: 0;
+  padding: 25px 0px;
+}
+
+.powered a {
+  color: #2a2a2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .3px;
+}
+.powered {
+  margin: 0;
+  padding: 25px 0px;
+}
+
+.powered a {
+  color: #2a2a2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .3px;
+  text-decoration: none;
+}
+
+.content_footer_bottom .payment-block ul {
+  margin: 0;
+  padding: 25px 0px;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.footer-hr hr {
+  margin: 0px;
+  margin-top: 33px;
+}
+.content_footer_bottom .payment-block ul li img:not(:last-child) {
+  margin-right: 5px;
+}

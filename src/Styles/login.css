@@ -1,0 +1,133 @@
+.loginpage aside {
+    padding-top: 40px;
+}
+
+.loginpage aside .heading h3 {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    padding: 0;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.loginpage .menu-list a {
+    display: block;
+    color: #222;
+    line-height: 30px;
+    font-family: inter,Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    text-decoration: none;
+}
+.loginpage .menu-list a:hover{
+    color: gray;
+}
+.loginpage .side-menus{
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+.loginpage .right-side{
+    padding: 40px 0 0 30px;
+}
+.loginpage .comman-part {
+    min-height: 20px;
+    padding: 35px 30px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e8e9eb;
+}
+.loginpage .comman-part h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-block: 0 20px;
+    letter-spacing: .3px;
+    font-weight: 600;
+}
+.loginpage .comman-part p {
+    margin-block-end: 20px;
+    color: #222;
+    font-family: inter,Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .3px;
+}
+.btn-continue {
+    border: none;
+    background: #F7D929;
+    color: #222;
+    border-radius: 50px;
+    padding: 8px 16px;
+}
+.btn-continue:hover{
+    color: #fff;
+    background-color: #222;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 9px 25px;
+    border-radius: 0;
+    color: #2a2a2a;
+    background-color: #fafafa;
+    background-image: none;
+    border: 1px solid #e5e5e5;
+    font-size: 14px !important;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    outline: 0;
+}
+legend{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: inherit;
+    margin-bottom: 20px;
+    padding: 0 0 8px;
+    width: 100%;
+    color: #333333;
+}
+.control-label:before {
+    content: '* ';
+    color: red;
+    font-weight: 700;
+}
+.form-group.required{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.radio-inline+.radio-inline, .checkbox-inline+.checkbox-inline {
+    margin-top: 0;
+    margin-left: 10px;
+}
+.radio input[type=radio], .radio-inline input[type=radio], .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox] {
+    float: left;
+    margin: 5px 8px 0 0;
+}
+.pull-right {
+    float: right;
+    margin-block: 3px;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.pull-right a b{
+    font-weight: 500;
+}
+.buttons input[type=radio],.buttons input[type=checkbox] {
+    margin-top: 1px;
+    line-height: normal;
+    margin: 4px 5px 0;
+    vertical-align: -3px;
+}
